@@ -1,0 +1,17 @@
+# ignore all files in the .vs/ directory
+.vs/
+
+# ignore all files in the Bin/ directory
+Bin/
+
+# ignore all files in the Example/Debug/ directory
+Example/Debug/
+
+# ignore all files in the Example/Release/ directory
+Example/Release/
+
+# ignore all files in the SAP/Debug/ directory
+SAP/Debug/
+
+# ignore all files in the SAP/Release/ directory
+SAP/Release/

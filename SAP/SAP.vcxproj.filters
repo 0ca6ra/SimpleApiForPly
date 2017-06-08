@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="PlyReader.cpp" />
+    <ClCompile Include="PlyPropertyReader.cpp" />
+    <ClCompile Include="PlyElementReader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlyPropertyReader.h" />
+    <ClInclude Include="PlyElementReader.h" />
+    <ClInclude Include="PlyContentHandler.h" />
+    <ClInclude Include="PlyReader.h" />
+    <ClInclude Include="PlyPropertyReaderUtilities.h" />
+    <ClInclude Include="PlyContentReader.h" />
+    <ClInclude Include="PlyErrorHandler.h" />
+  </ItemGroup>
+</Project>
