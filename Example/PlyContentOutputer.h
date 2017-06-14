@@ -26,7 +26,7 @@ public:
     bool DidReadInstancesOfElement(const std::string &elementName, std::size_t elementInstances) override;
 
     // Implementation of IPlyErrorHandler interface
-    virtual void DidFail(const std::string &errorMessage) override;
+    virtual void DidFailWithMessage(const std::string &errorMessage) override;
 
 public:
     bool Output(const std::string &filename);

@@ -49,7 +49,7 @@ bool SAP::PlyReader::OpenStream(const std::string &plyFile)
     {
         if (m_pErrorHandler != nullptr)
         {
-            m_pErrorHandler->DidFail("Error: Failed to open " + plyFile);
+            m_pErrorHandler->DidFailWithMessage("Error: Failed to open " + plyFile);
         }
 
         return false;
@@ -78,7 +78,7 @@ bool SAP::PlyReader::ParseHeader()
                 {
                     if (m_pErrorHandler != nullptr)
                     {
-                        m_pErrorHandler->DidFail("Error: Invalid ply magic number: " + line);
+                        m_pErrorHandler->DidFailWithMessage("Error: Invalid ply magic number: " + line);
                     }
 
                     return false;
@@ -90,7 +90,7 @@ bool SAP::PlyReader::ParseHeader()
                 {
                     if (m_pErrorHandler != nullptr)
                     {
-                        m_pErrorHandler->DidFail("Error: Invalid ply format: " + line);
+                        m_pErrorHandler->DidFailWithMessage("Error: Invalid ply format: " + line);
                     }
 
                     return false;
@@ -102,7 +102,7 @@ bool SAP::PlyReader::ParseHeader()
                 {
                     if (m_pErrorHandler != nullptr)
                     {
-                        m_pErrorHandler->DidFail("Error: Invalid ply header option: " + line);
+                        m_pErrorHandler->DidFailWithMessage("Error: Invalid ply header option: " + line);
                     }
 
                     return false;

@@ -1,10 +1,10 @@
 #pragma once
 
-#include "PlyContentHandler.h"
-#include "PlyPropertyReader.h"
-
 #include <memory>
 #include <vector>
+
+#include "PlyContentHandler.h"
+#include "PlyPropertyReader.h"
 
 namespace SAP
 {

@@ -1,7 +1,6 @@
 #pragma once
 
 #include <string>
-#include <iostream>
 
 namespace SAP
 {
@@ -11,6 +10,6 @@ namespace SAP
         {
         }
 
-        virtual void DidFail(const std::string &errorMessage) = 0;
+        virtual void DidFailWithMessage(const std::string &errorMessage) = 0;
     };
 }

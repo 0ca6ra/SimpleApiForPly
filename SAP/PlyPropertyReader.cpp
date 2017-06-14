@@ -1,3 +1,5 @@
+#include <vector>
+
 #include "PlyPropertyReader.h"
 #include "PlyPropertyReaderUtilities.h"
 

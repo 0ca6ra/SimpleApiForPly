@@ -1,8 +1,8 @@
 #pragma once
 
-#include "PlyContentReader.h"
-
 #include <memory>
+
+#include "PlyContentReader.h"
 
 namespace SAP
 {

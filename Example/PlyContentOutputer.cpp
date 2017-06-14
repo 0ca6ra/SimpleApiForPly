@@ -1,6 +1,6 @@
-#include "PlyContentOutputer.h"
-
 #include <iostream>
+
+#include "PlyContentOutputer.h"
 
 PlyContentOutputer::PlyContentOutputer() : 
     m_plyReader()
@@ -112,7 +112,7 @@ bool PlyContentOutputer::DidReadElementProperty(const std::string &propertyName,
 
 bool PlyContentOutputer::DidReadElement(const std::string &elementName, std::size_t elementInstance)
 {
-    std::cout << "    Did read instances (" << elementInstance << ") of \"" << elementName << "\" element" << std::endl;
+    std::cout << "    Did read instance (" << elementInstance << ") of \"" << elementName << "\" element" << std::endl;
     return true;
 }
 
@@ -123,7 +123,7 @@ bool PlyContentOutputer::DidReadInstancesOfElement(const std::string &elementNam
     return true;
 }
 
-void PlyContentOutputer::DidFail(const std::string &errorMessage)
+void PlyContentOutputer::DidFailWithMessage(const std::string &errorMessage)
 {
     std::cerr << errorMessage << std::endl;
 }
