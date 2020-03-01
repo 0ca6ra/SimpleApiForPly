@@ -1,5 +1,6 @@
 #include "PlyContentOutputer.h"
 
+// The fun starts here!
 int main(int argc, const char *argv[])
 {
     PlyContentOutputer plyContentOutputer;
