@@ -7,4 +7,4 @@ SAP is similar to SAX (Simple Api for Xml): it issues parsing events for Ply ele
 
 To use SAP you just need to create a class that implements the IPlyContentHandler and IPlyErrorHandler interfaces. 
 
-Refer to the Example folder for an example of how to use SAP.
+Refer to the Example folder for guidance on how to use SAP.
